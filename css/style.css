@@ -1,0 +1,82 @@
+/* colores: #F7F1E5  #898121  #E7B10A  #4C4B16 */
+body{
+    background: #F1C27B;
+    color: #333;
+}
+header{
+    background: #A2CDB0;
+    height: 95px;
+    
+}
+.logo{
+    width: 80px;
+    padding: 15px; 
+}
+nav ul{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding: 15px;
+    color: black;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: #F1C27B;
+}
+
+.splash{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/fondo.webp) center center fixed;
+    background-size: cover;
+}
+
+.texto{
+    margin-top: 100px;
+    background: #FFD89C;
+    color: black;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+}
+.btn{
+    background: #85A389;
+    color: black;
+}
+.centrado{
+    text-align: center;
+}
+.espacios{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content{
+  padding: 10px;  
+}
+.footer-txt{
+    width: 100%;
+    background: #85A389;
+    text-align: center;
+    padding: 10px;
+    
+}
+.iconos{
+    width: 60px;
+    height: 60px;  
+}
+.footer-txt img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.item{
+    scroll-margin-top: 8ex;
+}
