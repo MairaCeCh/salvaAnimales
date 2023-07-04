@@ -1,16 +1,32 @@
-/* colores: #F7F1E5  #898121  #E7B10A  #4C4B16 */
+*{
+  
+    box-sizing: border-box;
+}
 body{
-    background: #F1C27B;
+    background: #C1ECE4;
     color: #333;
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
 }
 header{
-    background: #A2CDB0;
-    height: 95px;
+    background: #3AA6B9;
+    position: fixed;
+    z-index: 100;
+    width: 95%;
+    height: 98px;
+    border-bottom: solid 1px black;
     
 }
 .logo{
     width: 80px;
     padding: 15px; 
+    margin-bottom: 20px;
+   
+}
+.tituloPrincipal{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
 }
 nav ul{
     float: right;
@@ -22,43 +38,99 @@ nav ul li{
     display: inline-block;
 }
 nav ul li a{
-    padding: 15px;
+    padding: 42px;
+    padding-bottom: 24px;
+    font-size: 20px;
+    text-decoration: none;
     color: black;
     text-transform: capitalize;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 nav ul li a:hover{
-    color: #F1C27B;
+    background: black;
+    color: #FF9EAA;
+}
+.titulo{
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.titulo2{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.textos{
+    margin-top: 10px;
+    font-size: 21px;
+    text-align: center;
 }
 
 .splash{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: url(../images/fondo.webp) center center fixed;
     background-size: cover;
+    border-bottom:  solid black 1px;
+    
 }
 
 .texto{
-    margin-top: 100px;
-    background: #FFD89C;
-    color: black;
+    margin-top: 150px;
+    margin-left: 50px;
+    background: #FF9EAA;
+    color: whitesmoke;
     display: inline-block;
     font-size: 40px;
     padding: 10px;
 }
-.btn{
-    background: #85A389;
+.texto2{
+    margin: 50px;
+    background: #FF9EAA;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 40px;
+    padding: 10px;
+}
+.primero{
+    font-size: 20px;
+    margin: 50px;
+    background: #FF9EAA;
+    border: none;
     color: black;
+    transition: 0.5s;
+}
+.primero:hover{
+    background: black;
+    color: #FF9EAA;
+}
+.segundo{
+    background: #3AA6B9;
+    color: black;
+    border: none;
+    transition: 0.5s;
+}
+.segundo:hover{
+    background: black;
+    color: #3AA6B9;
 }
 .centrado{
     text-align: center;
 }
 .espacios{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
+.card{
+    border: 3px solid black;
+}
+
 .content{
-  padding: 10px;  
+  
+  padding: 10px;
+  background: #FFD0D0;
 }
 .footer-txt{
     width: 100%;
